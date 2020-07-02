@@ -10,6 +10,13 @@ import java.sql.*;
  * @ dateTime：2020/6/4 21:16
  */
 public class TestDatabase {
+    /**
+     * 配置驱动方法
+     * 官方JDBC下载地址：https://dev.mysql.com/downloads/connector/j/5.1.html
+     * 下载mysql驱动jar包后放入项目，项目内点击 File - Project Structure - Modules - Dependencies
+     * 再点击下方 “+” - JARs or directories，选择刚刚下载的jar包，点击apply-ok即可
+     *
+     */
     public static void main(String[] args) {
 
         Connection con;
