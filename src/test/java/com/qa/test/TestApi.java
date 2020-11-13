@@ -37,10 +37,10 @@ public class TestApi {
         post.setHeader("Content-Type","application/json;charset=UTF-8");
 
         //准备参数 -->post请求的参数放在请求体中间
-        Users user = new Users("13002840927","WWLhA0m/hpBkHjoJRVCsMx8xvkBHlcOGOJ6t+DIMJw9gq2EtW0beb1yG6aCgMX0hwrERHv0kRN4xxFFqw5wkckKoyrzNkP6rFDypHlk1UnYIZrY2bYrL5kEOErUEnS+FIAYFk0+SrDsDE2q4yzlZoOcoBnbMQnNodwMR6doCDIM=");
+        Users user = new Users("13002840927","JjAkcJiR02+anmeXdRgaMfjduLhsH5vHNfgkad7vbtcx7QoGtNAoWGX2eavyasE3geSgHm+Qi++LvY3OVOfhFR9vxDVfhV+OYvpV4rR1/X+sjiVO9mZzcDoFtqGLK1OZrucwmrnBxrP2WX29viLg9M9KXKX/gV31n8VN2TOKyBQ=");
         List<NameValuePair> parameters = new ArrayList<>();
         parameters.add(new BasicNameValuePair("loginName","13002840927"));
-        parameters.add(new BasicNameValuePair("password","dzj111"));
+        parameters.add(new BasicNameValuePair("password","ddddggbb"));
         HttpEntity requestEntity = new UrlEncodedFormEntity(parameters);
         post.setEntity(requestEntity);
 
